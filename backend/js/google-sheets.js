@@ -12,7 +12,7 @@ const auth = new google.auth.GoogleAuth({
 
 async function updateSheet(data) {
   const client = await auth.getClient();
-  const spreadsheetId = "1j_fradaMRDwE00hIHgNCJJRmtHiaVl7JaXvT1zBPr_s"; // 替換為你的試算表ID
+  const spreadsheetId = "1bDsGmpGnwImgxH8xXdgc1MohBO8ifCgjbHLBim_SFx4"; // 替換為你的試算表ID
 
   await sheets.spreadsheets.values.append({
     auth: client,
